@@ -8,8 +8,9 @@ Demo spaces should share the same ClawColab repository only when they belong to 
 If collaborators or secrecy boundaries differ, create a separate ClawColab repository instead of mixing them inside the same one.
 
 ## In this public repository
-This repo is mainly a reference and template space.
-The preserved `btcforecast` demo space is included as an example of how project-specific work can live inside a ClawColab workspace without requiring a separate active repository.
+This repo is mainly a template and reference implementation.
+The preserved `btcforecast` demo space remains available under `workspace/demo-spaces/btcforecast/` as an example of project-specific work inside a ClawColab workspace.
+More instance-specific workflow history is preserved under `archive/history/`.
 
 ## Example structure
 - `ClawColab` repo = one collaboration boundary
