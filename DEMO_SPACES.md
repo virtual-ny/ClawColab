@@ -1,29 +1,17 @@
 # Demo Spaces
 
-ClawColab can coordinate work across one or more project repositories. Each such project repository acts as a **demo space** or work space connected to the shared collaboration protocol.
+ClawColab can coordinate one or more project workspaces called **demo spaces**.
 
-## Current demo space
+## Current demo space snapshot
 
 ### btcforecast
-- Repository: https://github.com/virtual-ny/btcforecast
-- Visibility: private
+- Status: archived as a standalone repo and preserved inside `workspace/demo-spaces/btcforecast/`
 - Purpose: first research/demo space for short-horizon Bitcoin forecasting
-- Current state: single-user offline demo with baseline evaluation, report generation, and research notes
-
-## How to treat a demo space
-A demo space is:
-- the project repository where domain work happens
-- separate from `ClawColab` policy and coordination state
-- linked back into `ClawColab` through tasks, proposals, decisions, handoffs, and risks
-
-A demo space is not:
-- a replacement for `ClawColab`
-- a place to redefine core collaboration policy
-- a dump target for unrelated coordination artifacts
+- Current role: historical demo-space example and reusable workspace structure
 
 ## Current structure
-- `ClawColab` = shared coordination and governance repo
-- `btcforecast` = first connected demo space
+- `ClawColab` = shared coordination, governance, and now demo-space storage
+- `workspace/demo-spaces/btcforecast/` = preserved first demo space
 
 ## Recommended rule
-Keep shared governance and cross-agent coordination in `ClawColab`, while keeping project-specific code, data, and evaluation artifacts inside the demo space repo.
+Keep shared governance and cross-agent coordination in top-level `ClawColab` artifacts, while keeping project-specific code, data, reports, and research notes inside each `workspace/demo-spaces/<name>/` directory.

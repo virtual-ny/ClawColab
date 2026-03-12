@@ -1,0 +1,333 @@
+{
+  "generated_at": "2026-03-12T14:12:38.655596+00:00",
+  "dataset": "data/raw/coinbase/btcusd_1m_coinbase_multiwindow.csv",
+  "reference_price_rule": "current bar close at time t",
+  "horizon_bars": 5,
+  "total_samples": 2988,
+  "train_samples": 2091,
+  "test_samples": 897,
+  "test_class_balance_up": 0.510591,
+  "full_test": {
+    "samples": 897,
+    "class_balance_up": 0.510591,
+    "baselines": {
+      "momentum": {
+        "accuracy": 0.477146,
+        "confusion": {
+          "tp": 218,
+          "tn": 210,
+          "fp": 229,
+          "fn": 240
+        }
+      },
+      "mean_reversion": {
+        "accuracy": 0.522854,
+        "confusion": {
+          "tp": 240,
+          "tn": 229,
+          "fp": 210,
+          "fn": 218
+        }
+      },
+      "always_up": {
+        "accuracy": 0.510591,
+        "confusion": {
+          "tp": 458,
+          "tn": 0,
+          "fp": 439,
+          "fn": 0
+        }
+      },
+      "always_down": {
+        "accuracy": 0.489409,
+        "confusion": {
+          "tp": 0,
+          "tn": 439,
+          "fp": 0,
+          "fn": 458
+        }
+      },
+      "random": {
+        "accuracy": 0.516165,
+        "confusion": {
+          "tp": 241,
+          "tn": 222,
+          "fp": 217,
+          "fn": 217
+        }
+      }
+    }
+  },
+  "batch_summaries": [
+    {
+      "batch_index": 1,
+      "start_timestamp": "2026-03-10 12:15:00+00:00",
+      "end_timestamp": "2026-03-10 22:07:00+00:00",
+      "samples": 178,
+      "class_balance_up": 0.505618,
+      "baselines": {
+        "momentum": {
+          "accuracy": 0.494382,
+          "confusion": {
+            "tp": 42,
+            "tn": 46,
+            "fp": 42,
+            "fn": 48
+          }
+        },
+        "mean_reversion": {
+          "accuracy": 0.505618,
+          "confusion": {
+            "tp": 48,
+            "tn": 42,
+            "fp": 46,
+            "fn": 42
+          }
+        },
+        "always_up": {
+          "accuracy": 0.505618,
+          "confusion": {
+            "tp": 90,
+            "tn": 0,
+            "fp": 88,
+            "fn": 0
+          }
+        },
+        "always_down": {
+          "accuracy": 0.494382,
+          "confusion": {
+            "tp": 0,
+            "tn": 88,
+            "fp": 0,
+            "fn": 90
+          }
+        },
+        "random": {
+          "accuracy": 0.488764,
+          "confusion": {
+            "tp": 38,
+            "tn": 49,
+            "fp": 39,
+            "fn": 52
+          }
+        }
+      }
+    },
+    {
+      "batch_index": 2,
+      "start_timestamp": "2026-03-10 22:12:00+00:00",
+      "end_timestamp": "2026-03-11 08:04:00+00:00",
+      "samples": 178,
+      "class_balance_up": 0.41573,
+      "baselines": {
+        "momentum": {
+          "accuracy": 0.58427,
+          "confusion": {
+            "tp": 38,
+            "tn": 66,
+            "fp": 38,
+            "fn": 36
+          }
+        },
+        "mean_reversion": {
+          "accuracy": 0.41573,
+          "confusion": {
+            "tp": 36,
+            "tn": 38,
+            "fp": 66,
+            "fn": 38
+          }
+        },
+        "always_up": {
+          "accuracy": 0.41573,
+          "confusion": {
+            "tp": 74,
+            "tn": 0,
+            "fp": 104,
+            "fn": 0
+          }
+        },
+        "always_down": {
+          "accuracy": 0.58427,
+          "confusion": {
+            "tp": 0,
+            "tn": 104,
+            "fp": 0,
+            "fn": 74
+          }
+        },
+        "random": {
+          "accuracy": 0.544944,
+          "confusion": {
+            "tp": 35,
+            "tn": 62,
+            "fp": 42,
+            "fn": 39
+          }
+        }
+      }
+    },
+    {
+      "batch_index": 3,
+      "start_timestamp": "2026-03-11 08:09:00+00:00",
+      "end_timestamp": "2026-03-11 18:01:00+00:00",
+      "samples": 178,
+      "class_balance_up": 0.601124,
+      "baselines": {
+        "momentum": {
+          "accuracy": 0.522472,
+          "confusion": {
+            "tp": 65,
+            "tn": 28,
+            "fp": 43,
+            "fn": 42
+          }
+        },
+        "mean_reversion": {
+          "accuracy": 0.477528,
+          "confusion": {
+            "tp": 42,
+            "tn": 43,
+            "fp": 28,
+            "fn": 65
+          }
+        },
+        "always_up": {
+          "accuracy": 0.601124,
+          "confusion": {
+            "tp": 107,
+            "tn": 0,
+            "fp": 71,
+            "fn": 0
+          }
+        },
+        "always_down": {
+          "accuracy": 0.398876,
+          "confusion": {
+            "tp": 0,
+            "tn": 71,
+            "fp": 0,
+            "fn": 107
+          }
+        },
+        "random": {
+          "accuracy": 0.438202,
+          "confusion": {
+            "tp": 42,
+            "tn": 36,
+            "fp": 35,
+            "fn": 65
+          }
+        }
+      }
+    },
+    {
+      "batch_index": 4,
+      "start_timestamp": "2026-03-11 18:06:00+00:00",
+      "end_timestamp": "2026-03-12 04:02:00+00:00",
+      "samples": 178,
+      "class_balance_up": 0.533708,
+      "baselines": {
+        "momentum": {
+          "accuracy": 0.44382,
+          "confusion": {
+            "tp": 46,
+            "tn": 33,
+            "fp": 50,
+            "fn": 49
+          }
+        },
+        "mean_reversion": {
+          "accuracy": 0.55618,
+          "confusion": {
+            "tp": 49,
+            "tn": 50,
+            "fp": 33,
+            "fn": 46
+          }
+        },
+        "always_up": {
+          "accuracy": 0.533708,
+          "confusion": {
+            "tp": 95,
+            "tn": 0,
+            "fp": 83,
+            "fn": 0
+          }
+        },
+        "always_down": {
+          "accuracy": 0.466292,
+          "confusion": {
+            "tp": 0,
+            "tn": 83,
+            "fp": 0,
+            "fn": 95
+          }
+        },
+        "random": {
+          "accuracy": 0.494382,
+          "confusion": {
+            "tp": 41,
+            "tn": 47,
+            "fp": 36,
+            "fn": 54
+          }
+        }
+      }
+    },
+    {
+      "batch_index": 5,
+      "start_timestamp": "2026-03-12 04:07:00+00:00",
+      "end_timestamp": "2026-03-12 14:02:00+00:00",
+      "samples": 179,
+      "class_balance_up": 0.49162,
+      "baselines": {
+        "momentum": {
+          "accuracy": 0.52514,
+          "confusion": {
+            "tp": 41,
+            "tn": 53,
+            "fp": 38,
+            "fn": 47
+          }
+        },
+        "mean_reversion": {
+          "accuracy": 0.47486,
+          "confusion": {
+            "tp": 47,
+            "tn": 38,
+            "fp": 53,
+            "fn": 41
+          }
+        },
+        "always_up": {
+          "accuracy": 0.49162,
+          "confusion": {
+            "tp": 88,
+            "tn": 0,
+            "fp": 91,
+            "fn": 0
+          }
+        },
+        "always_down": {
+          "accuracy": 0.50838,
+          "confusion": {
+            "tp": 0,
+            "tn": 91,
+            "fp": 0,
+            "fn": 88
+          }
+        },
+        "random": {
+          "accuracy": 0.519553,
+          "confusion": {
+            "tp": 40,
+            "tn": 53,
+            "fp": 38,
+            "fn": 48
+          }
+        }
+      }
+    }
+  ]
+}

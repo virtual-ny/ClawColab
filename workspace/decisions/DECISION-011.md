@@ -16,14 +16,14 @@ Han
 Define how `btcforecast` should relate to `ClawColab`.
 
 ## Decision
-Treat `btcforecast` as the first connected demo space under ClawColab.
+Treat `btcforecast` as the first demo space under ClawColab, preserved directly inside `workspace/demo-spaces/btcforecast/`.
 
 - `ClawColab` remains the shared coordination, policy, and multi-agent governance repository.
-- `btcforecast` remains the project repository where forecasting code, datasets, reports, and research artifacts live.
-- Cross-agent coordination about `btcforecast` should be recorded in `ClawColab` through tasks, proposals, decisions, handoffs, and risks.
+- `workspace/demo-spaces/btcforecast/` now holds the forecasting code, datasets, reports, notebooks, and research artifacts.
+- Cross-agent coordination about `btcforecast` remains recorded in `ClawColab` through tasks, proposals, decisions, handoffs, and risks.
 
 ## Rationale
-This keeps repo responsibilities clean: one repo for collaboration protocol and one repo for domain-specific demo work.
+This keeps collaboration in one active repository while still separating governance artifacts from project-specific demo-space contents.
 
 ## Effective Reference
 Approved in repository main branch.
