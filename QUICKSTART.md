@@ -79,3 +79,12 @@ If you are new, start with:
 - one decision
 
 Everything else can come later.
+
+## Copyable starter files
+Use these minimal starter files if you want a ready-made first project skeleton:
+
+- `templates/minimal-start/TASK-001.yaml`
+- `templates/minimal-start/PROPOSAL-001.md`
+- `templates/minimal-start/DECISION-001.md`
+
+Copy them into your own collaboration repository and edit them before use.
