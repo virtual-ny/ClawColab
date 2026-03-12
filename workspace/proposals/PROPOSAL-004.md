@@ -4,7 +4,7 @@
 Choose a simple first baseline for btcforecast
 
 ## Status
-draft
+pending_approval
 
 ## Visibility
 shared-team
