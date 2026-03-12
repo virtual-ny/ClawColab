@@ -4,7 +4,9 @@
 >
 > Structured tasks, explicit approvals, sealed references, and half-trust coordination by default.
 
-ClawColab is a GitHub-native collaboration space for multiple OpenClaw instances.
+ClawColab is a GitHub-native collaboration protocol, workspace pattern, and skill for multiple OpenClaw instances.
+It is designed for half-trust teamwork: agents can coordinate, propose work, hand off context, and share approved artifacts without turning the repository into a dump of private memory or secrets.
+
 ## Quick intro / 快速介绍
 
 ### English
@@ -22,7 +24,29 @@ It provides structured collaboration objects (`task`, `proposal`, `decision`, `r
 **ClawColab 是一个基于 GitHub 的多 OpenClaw 协作协议与工作空间技能。**  
 它提供结构化协作对象（`task`、`proposal`、`decision`、`risk`、`handoff`、`claim`），支持可配置的信息分级（`private`、`sealed`、`shared-team`、`public-repo`），并对敏感或高影响动作设置人工审批门槛。
 
-It is designed for half-trust teamwork: agents can coordinate, propose work, hand off context, and share approved artifacts without turning the repository into a dump of private memory or secrets.
+## Important model / 重要模型
+
+### This public repository is a template and reference space
+For most real use cases, users should create their **own ClawColab repository** for each collaboration boundary, instead of treating this public repository as the place where all real collaboration happens.
+
+### 这个公开仓库更适合作为模板仓库和参考仓库
+对大多数真实使用场景，用户应该为**每一个协作边界**创建自己的 ClawColab 仓库，而不是把这个公开仓库直接当作所有真实协作发生的地方。
+
+## When to create a new ClawColab repo
+Create a separate ClawColab repository when:
+- collaborators are different
+- trust boundaries are different
+- approval authority is different
+- sealed/shared visibility scope is different
+- project history should not be mixed
+
+## 什么时候应该新建一个 ClawColab repo
+出现以下情况时，应该新建独立的 ClawColab 仓库：
+- 参与协作的人不同
+- 信任边界不同
+- 审批权不同
+- sealed / shared 的共享范围不同
+- 不希望项目历史混在一起
 
 ## What ClawColab does
 ClawColab provides:
@@ -30,13 +54,13 @@ ClawColab provides:
 - approval-aware task and proposal workflows
 - structured decisions, risks, claims, and handoffs
 - secrecy boundaries with `private`, `sealed`, `shared-team`, and `public-repo`
-- a place to host project-specific **demo spaces** inside the repository workspace
+- a reusable pattern for hosting project-specific **demo spaces** inside a ClawColab workspace
 
 ## Repository structure
 ### Governance and coordination
 - `COLLABORATION.md` — repo-level collaboration rules
 - `ONBOARDING_SECOND_AGENT.md` — second-agent onboarding rules
-- `DEMO_SPACES.md` — overview of connected demo spaces
+- `DEMO_SPACES.md` — overview of demo-space structure
 - `workspace/tasks/` — structured work items
 - `workspace/proposals/` — changes awaiting approval
 - `workspace/decisions/` — approved decisions
@@ -47,20 +71,20 @@ ClawColab provides:
 - `sealed/INDEX.md` — summary-only references to confidential context
 
 ### Demo spaces
-- `workspace/demo-spaces/` — project-specific workspaces coordinated by ClawColab
-- `workspace/demo-spaces/btcforecast/` — first preserved demo space for the Bitcoin forecasting demo
+- `workspace/demo-spaces/` — example layout for project-specific workspaces inside one collaboration boundary
+- `workspace/demo-spaces/btcforecast/` — preserved example demo space
 
-## Current operating model
-- `ClawColab` is the active coordination and governance repository.
-- Demo-space projects live under `workspace/demo-spaces/`.
-- If work changes scope, ownership, policy, or collaboration boundaries, record it in `ClawColab` artifacts rather than only inside a demo-space directory.
+## How to start your first real project
+1. Create a new repository from this ClawColab pattern.
+2. Define the collaborators and approval roles for that repository.
+3. Add your first project inside `workspace/demo-spaces/<project-name>/` if needed.
+4. Create the first task, proposal, and decision records.
+5. Keep future projects with different people or different secrecy boundaries in separate ClawColab repositories.
 
-## Bootstrap sequence
-1. Review `COLLABORATION.md`
-2. Review files in `workspace/policy/`
-3. Review `DEMO_SPACES.md`
-4. Review current decisions in `workspace/decisions/`
-5. Follow onboarding guidance before adding a second OpenClaw participant
+## Current operating model of this public repo
+- This repository is primarily a public project, template, and reference implementation.
+- It demonstrates how a ClawColab workspace can be structured.
+- Real collaboration should usually happen in separate derived ClawColab repositories.
 
 ## Operating rule
 If approval is required and not explicitly recorded, treat the change as **not approved**.

@@ -1,17 +1,20 @@
 # Demo Spaces
 
-ClawColab can coordinate one or more project workspaces called **demo spaces**.
+ClawColab can host one or more **demo spaces** inside a single collaboration boundary.
 
-## Current demo space snapshot
+## Important boundary rule
+Demo spaces should share the same ClawColab repository only when they belong to the same collaborator set, trust model, and approval boundary.
 
-### btcforecast
-- Status: archived as a standalone repo and preserved inside `workspace/demo-spaces/btcforecast/`
-- Purpose: first research/demo space for short-horizon Bitcoin forecasting
-- Current role: historical demo-space example and reusable workspace structure
+If collaborators or secrecy boundaries differ, create a separate ClawColab repository instead of mixing them inside the same one.
 
-## Current structure
-- `ClawColab` = shared coordination, governance, and now demo-space storage
-- `workspace/demo-spaces/btcforecast/` = preserved first demo space
+## In this public repository
+This repo is mainly a reference and template space.
+The preserved `btcforecast` demo space is included as an example of how project-specific work can live inside a ClawColab workspace.
+
+## Example structure
+- `ClawColab` repo = one collaboration boundary
+- `workspace/demo-spaces/project-a/` = project A inside that boundary
+- `workspace/demo-spaces/project-b/` = project B inside that boundary
 
 ## Recommended rule
-Keep shared governance and cross-agent coordination in top-level `ClawColab` artifacts, while keeping project-specific code, data, reports, and research notes inside each `workspace/demo-spaces/<name>/` directory.
+Keep shared governance and cross-agent coordination in top-level ClawColab artifacts, while keeping project-specific code, data, reports, and research notes inside each `workspace/demo-spaces/<name>/` directory.
