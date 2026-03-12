@@ -15,7 +15,7 @@ eligible_roles:
   - researcher
 dependencies: []
 inputs:
-  - https://github.com/virtual-ny/btcforecast
+  - workspace/demo-spaces/btcforecast/
 outputs:
   - workspace/proposals/PROPOSAL-003.md
   - workspace/decisions/DECISION-003.md

@@ -7,7 +7,7 @@ btcforecast is the first ClawColab demo space
 approved
 
 ## Approved By
-Han
+human-approver
 
 ## Based On
 - PROPOSAL-006

@@ -7,7 +7,7 @@ First btcforecast demo objective
 approved
 
 ## Approved By
-Han
+human-approver
 
 ## Based On
 - PROPOSAL-003

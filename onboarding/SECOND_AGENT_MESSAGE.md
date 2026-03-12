@@ -13,7 +13,7 @@ You do **not** start with approval authority.
 Read these files in order:
 1. `README.md`
 2. `COLLABORATION.md`
-3. `ONBOARDING_SECOND_AGENT.md`
+3. `onboarding/ONBOARDING_SECOND_AGENT.md`
 4. `workspace/policy/visibility-policy.yaml`
 5. `workspace/policy/role-policy.yaml`
 6. `workspace/policy/approval-policy.yaml`
@@ -36,4 +36,4 @@ If a task feels like it changes scope, authority, policy, or secrecy boundaries,
 
 
 ## Preflight
-Before starting a task, read and follow `SECOND_AGENT_PREFLIGHT_CHECKLIST.md`.
+Before starting a task, read and follow `onboarding/SECOND_AGENT_PREFLIGHT_CHECKLIST.md`.

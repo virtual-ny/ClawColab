@@ -8,7 +8,7 @@ mode: proposal-approval
 approval_required: true
 owner: Athena
 proposed_by: Athena
-approved_by: Han
+approved_by: human-approver
 eligible_roles:
   - coordinator
   - architect
@@ -16,7 +16,7 @@ eligible_roles:
 dependencies:
   - DECISION-011
 inputs:
-  - https://github.com/virtual-ny/btcforecast
+  - workspace/demo-spaces/btcforecast/
 outputs:
   - DEMO_SPACES.md
   - workspace/decisions/DECISION-011.md

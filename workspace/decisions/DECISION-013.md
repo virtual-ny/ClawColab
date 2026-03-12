@@ -7,7 +7,7 @@ Adopt a second-agent preflight checklist
 approved
 
 ## Approved By
-Han
+human-approver
 
 ## Based On
 - TASK-016

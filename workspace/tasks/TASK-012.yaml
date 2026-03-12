@@ -16,7 +16,7 @@ eligible_roles:
 dependencies:
   - TASK-011
 inputs:
-  - https://github.com/virtual-ny/btcforecast
+  - workspace/demo-spaces/btcforecast/
 outputs:
   - workspace/proposals/PROPOSAL-005.md
 sealed_refs: []

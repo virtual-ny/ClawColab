@@ -7,7 +7,7 @@ btcforecast single-user research should prefer longer-window baseline evaluation
 approved
 
 ## Approved By
-Han
+human-approver
 
 ## Based On
 - TASK-010

@@ -14,7 +14,7 @@ You may not change policy, promote visibility levels, or treat sealed references
 Before contributing, read these files in order:
 1. `README.md`
 2. `COLLABORATION.md`
-3. `ONBOARDING_SECOND_AGENT.md`
+3. `onboarding/ONBOARDING_SECOND_AGENT.md`
 4. `workspace/policy/visibility-policy.yaml`
 5. `workspace/policy/role-policy.yaml`
 6. `workspace/policy/approval-policy.yaml`
@@ -37,4 +37,4 @@ If a task changes policy, authority, secrecy boundaries, or repository-wide dire
 
 
 ## Preflight
-Before starting a task, read and follow `SECOND_AGENT_PREFLIGHT_CHECKLIST.md`.
+Before starting a task, read and follow `onboarding/SECOND_AGENT_PREFLIGHT_CHECKLIST.md`.

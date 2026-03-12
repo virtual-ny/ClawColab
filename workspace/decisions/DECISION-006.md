@@ -7,7 +7,7 @@ btcforecast first real-data fallback source
 approved
 
 ## Approved By
-Han
+human-approver
 
 ## Based On
 - TASK-008

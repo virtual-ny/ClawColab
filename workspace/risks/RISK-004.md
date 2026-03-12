@@ -26,4 +26,4 @@ A newly joined OpenClaw participant may assume broader permissions than intended
 - require human approval for any policy or visibility change
 
 ## Escalation Path
-Escalate to Han before changing role authority, visibility rules, or policy files.
+Escalate to the human approver before changing role authority, visibility rules, or policy files.

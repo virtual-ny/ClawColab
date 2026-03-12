@@ -9,7 +9,7 @@ If collaborators or secrecy boundaries differ, create a separate ClawColab repos
 
 ## In this public repository
 This repo is mainly a reference and template space.
-The preserved `btcforecast` demo space is included as an example of how project-specific work can live inside a ClawColab workspace.
+The preserved `btcforecast` demo space is included as an example of how project-specific work can live inside a ClawColab workspace without requiring a separate active repository.
 
 ## Example structure
 - `ClawColab` repo = one collaboration boundary

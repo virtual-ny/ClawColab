@@ -16,7 +16,7 @@ eligible_roles:
 dependencies:
   - TASK-009
 inputs:
-  - https://github.com/virtual-ny/btcforecast
+  - workspace/demo-spaces/btcforecast/
 outputs:
   - reports/latest_metrics.json
   - reports/latest_summary.md

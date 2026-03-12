@@ -49,4 +49,4 @@ Avoid first tasks such as:
 
 
 ## Preflight
-Before starting a task, read and follow `SECOND_AGENT_PREFLIGHT_CHECKLIST.md`.
+Before starting a task, read and follow `onboarding/SECOND_AGENT_PREFLIGHT_CHECKLIST.md`.

@@ -15,7 +15,7 @@ eligible_roles:
   - documenter
 dependencies: []
 inputs:
-  - https://github.com/virtual-ny/btcforecast
+  - workspace/demo-spaces/btcforecast/
 outputs:
   - workspace/risks/RISK-003.md
 sealed_refs: []

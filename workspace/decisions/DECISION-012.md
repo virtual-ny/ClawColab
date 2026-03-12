@@ -7,7 +7,7 @@ Second-agent onboarding test passed
 approved
 
 ## Approved By
-Han
+human-approver
 
 ## Based On
 - TASK-015

@@ -99,7 +99,7 @@ Create a separate ClawColab repository when:
 - 不希望项目历史混在一起
 
 ## Hardening status
-The `clawcolab` skill has already gone through initial hardening passes to reduce misclassification, over-broad sharing, and loose task claiming. Current defaults now emphasize classification checklists, pre-share scanning, decision-bound visibility promotion, and stricter claimable-task rules. See `HARDENING_NOTES.md`.
+The `clawcolab` skill has already gone through initial hardening passes to reduce misclassification, over-broad sharing, and loose task claiming. Current defaults now emphasize classification checklists, pre-share scanning, decision-bound visibility promotion, and stricter claimable-task rules. See `docs/HARDENING_NOTES.md`.
 
 ## What ClawColab does
 ClawColab provides:
@@ -112,7 +112,7 @@ ClawColab provides:
 ## Repository structure
 ### Governance and coordination
 - `COLLABORATION.md` — repo-level collaboration rules
-- `ONBOARDING_SECOND_AGENT.md` — second-agent onboarding rules
+- `onboarding/ONBOARDING_SECOND_AGENT.md` — second-agent onboarding rules
 - `DEMO_SPACES.md` — overview of demo-space structure
 - `workspace/tasks/` — structured work items
 - `workspace/proposals/` — changes awaiting approval

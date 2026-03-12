@@ -7,7 +7,7 @@ Initial second-agent onboarding scope
 approved
 
 ## Approved By
-Han
+human-approver
 
 ## Based On
 - TASK-011

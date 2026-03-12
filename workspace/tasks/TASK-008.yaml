@@ -16,7 +16,7 @@ eligible_roles:
 dependencies:
   - TASK-007
 inputs:
-  - https://github.com/virtual-ny/btcforecast
+  - workspace/demo-spaces/btcforecast/
 outputs:
   - docs/data-source-notes.md
   - scripts/fetch_coinbase_data.py

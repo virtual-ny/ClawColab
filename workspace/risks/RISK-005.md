@@ -23,4 +23,4 @@ The second agent's first review task involves baseline evaluation outputs that c
 - keep the first contribution limited to review, risk, or handoff artifacts
 
 ## Escalation Path
-Escalate to Han before using the review output to justify broader research claims or scope changes.
+Escalate to the human approver before using the review output to justify broader research claims or scope changes.

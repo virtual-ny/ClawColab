@@ -7,7 +7,7 @@ First btcforecast baseline approach
 approved
 
 ## Approved By
-Han
+human-approver
 
 ## Based On
 - PROPOSAL-004

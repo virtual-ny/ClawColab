@@ -7,7 +7,7 @@ btcforecast first-demo reference price rule
 approved
 
 ## Approved By
-Han
+human-approver
 
 ## Based On
 - TASK-007
