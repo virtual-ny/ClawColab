@@ -1,0 +1,26 @@
+id: TASK-014
+title: Normalize btcforecast as a ClawColab demo space
+summary: Document btcforecast as the first demo space connected to ClawColab and make the repo boundary explicit for future collaborators.
+visibility: shared-team
+status: done
+priority: medium
+mode: proposal-approval
+approval_required: true
+owner: Athena
+proposed_by: Athena
+approved_by: Han
+eligible_roles:
+  - coordinator
+  - architect
+  - documenter
+dependencies:
+  - DECISION-011
+inputs:
+  - https://github.com/virtual-ny/btcforecast
+outputs:
+  - DEMO_SPACES.md
+  - workspace/decisions/DECISION-011.md
+sealed_refs: []
+risks: []
+notes: |
+  This task records the repo relationship explicitly so future onboarding is simpler.
