@@ -1,0 +1,26 @@
+id: TASK-009
+title: Add report output and richer baseline comparisons to btcforecast
+summary: Improve the single-user btcforecast evaluation loop by saving metrics to reports and adding always-down plus mean-reversion baselines.
+visibility: shared-team
+status: done
+priority: medium
+mode: claimable
+approval_required: false
+owner: Athena
+proposed_by: Athena
+approved_by: null
+eligible_roles:
+  - implementer
+  - researcher
+  - documenter
+dependencies:
+  - TASK-008
+inputs:
+  - https://github.com/virtual-ny/btcforecast
+outputs:
+  - reports/latest_metrics.json
+  - scripts/evaluate_baseline.py
+sealed_refs: []
+risks: []
+notes: |
+  This extends the single-user evaluation loop toward a more repeatable research workflow.
