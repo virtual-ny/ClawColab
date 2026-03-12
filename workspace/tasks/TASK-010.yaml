@@ -1,0 +1,26 @@
+id: TASK-010
+title: Evaluate btcforecast baselines over a longer recent BTC window
+summary: Extend the single-user research demo with a longer real-data window, multi-batch evaluation, and a readable summary report.
+visibility: shared-team
+status: done
+priority: medium
+mode: claimable
+approval_required: false
+owner: Athena
+proposed_by: Athena
+approved_by: null
+eligible_roles:
+  - implementer
+  - researcher
+  - documenter
+dependencies:
+  - TASK-009
+inputs:
+  - https://github.com/virtual-ny/btcforecast
+outputs:
+  - reports/latest_metrics.json
+  - reports/latest_summary.md
+sealed_refs: []
+risks: []
+notes: |
+  This improves baseline stability assessment before any multi-user collaboration phase.
