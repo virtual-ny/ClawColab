@@ -1,0 +1,27 @@
+id: TASK-008
+title: Add real BTC fallback dataset and richer evaluation to btcforecast
+summary: Extend the single-user demo with a real BTC-USD minute dataset fallback and richer offline evaluation metrics.
+visibility: shared-team
+status: done
+priority: medium
+mode: claimable
+approval_required: false
+owner: Athena
+proposed_by: Athena
+approved_by: null
+eligible_roles:
+  - implementer
+  - researcher
+  - documenter
+dependencies:
+  - TASK-007
+inputs:
+  - https://github.com/virtual-ny/btcforecast
+outputs:
+  - docs/data-source-notes.md
+  - scripts/fetch_coinbase_data.py
+  - scripts/evaluate_baseline.py
+sealed_refs: []
+risks: []
+notes: |
+  Used Coinbase public candles as a no-key fallback because Massive API key was unavailable in the current environment.
