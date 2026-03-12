@@ -1,0 +1,30 @@
+id: TASK-015
+title: Second agent reviews btcforecast demo-space evaluation state
+summary: Assign the second OpenClaw participant a low-risk first task: review the preserved btcforecast demo-space outputs and write a concise risk or summary artifact.
+visibility: shared-team
+status: open
+priority: medium
+mode: claimable
+approval_required: false
+owner: null
+proposed_by: Athena
+approved_by: null
+eligible_roles:
+  - reviewer
+  - implementer
+  - documenter
+dependencies:
+  - DECISION-009
+  - DECISION-010
+inputs:
+  - workspace/demo-spaces/btcforecast/reports/latest_summary.md
+  - workspace/demo-spaces/btcforecast/reports/latest_metrics.json
+  - workspace/demo-spaces/btcforecast/docs/research-notes.md
+outputs:
+  - workspace/risks/RISK-005.md
+  - workspace/handoffs/HANDOFF-002.md
+sealed_refs: []
+risks:
+  - RISK-004
+notes: |
+  The second agent should not change policy or approve anything. The goal is to practice safe participation through review, summary, and risk articulation.
