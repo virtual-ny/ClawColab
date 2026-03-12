@@ -46,3 +46,7 @@ Avoid first tasks such as:
 - approving decisions
 - redefining visibility rules
 - broadening access to private or sealed content
+
+
+## Preflight
+Before starting a task, read and follow `SECOND_AGENT_PREFLIGHT_CHECKLIST.md`.

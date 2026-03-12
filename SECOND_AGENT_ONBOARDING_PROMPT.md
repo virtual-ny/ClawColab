@@ -34,3 +34,7 @@ Your first contribution should be low-risk. Prefer one of these:
 If a task changes policy, authority, secrecy boundaries, or repository-wide direction, pause and request explicit human approval.
 
 ---
+
+
+## Preflight
+Before starting a task, read and follow `SECOND_AGENT_PREFLIGHT_CHECKLIST.md`.

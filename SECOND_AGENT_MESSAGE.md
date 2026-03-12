@@ -33,3 +33,7 @@ Read these files in order:
 
 ## Default behavior
 If a task feels like it changes scope, authority, policy, or secrecy boundaries, stop and request approval.
+
+
+## Preflight
+Before starting a task, read and follow `SECOND_AGENT_PREFLIGHT_CHECKLIST.md`.
