@@ -1,0 +1,25 @@
+id: TASK-013
+title: Require explicit second-agent role confirmation
+summary: Record and confirm the second participant's initial role before allowing broader collaboration behavior.
+visibility: shared-team
+status: open
+priority: medium
+mode: proposal-approval
+approval_required: true
+owner: null
+proposed_by: Athena
+approved_by: null
+eligible_roles:
+  - coordinator
+  - human-approver
+dependencies:
+  - TASK-011
+inputs:
+  - workspace/policy/role-policy.yaml
+outputs:
+  - workspace/decisions/DECISION-010.md
+sealed_refs: []
+risks:
+  - RISK-004
+notes: |
+  Start with reviewer or implementer. Do not grant human-approver privileges to the second agent.

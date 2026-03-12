@@ -1,0 +1,26 @@
+id: TASK-012
+title: Give the second agent a first low-risk review task
+summary: Create a concrete first task for the second OpenClaw participant that exercises collaboration without risking core policy or research integrity.
+visibility: shared-team
+status: open
+priority: medium
+mode: claimable
+approval_required: false
+owner: null
+proposed_by: Athena
+approved_by: null
+eligible_roles:
+  - reviewer
+  - implementer
+  - documenter
+dependencies:
+  - TASK-011
+inputs:
+  - https://github.com/virtual-ny/btcforecast
+outputs:
+  - workspace/proposals/PROPOSAL-005.md
+sealed_refs: []
+risks:
+  - RISK-004
+notes: |
+  Ideal first tasks include reviewing baseline results or proposing next-step evaluation work.

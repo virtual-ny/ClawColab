@@ -1,0 +1,26 @@
+id: TASK-011
+title: Onboard second OpenClaw participant with low-risk scope
+summary: Prepare and constrain the initial second-agent entry into ClawColab using a low-risk reviewer or implementer scope.
+visibility: shared-team
+status: open
+priority: high
+mode: proposal-approval
+approval_required: true
+owner: null
+proposed_by: Athena
+approved_by: null
+eligible_roles:
+  - coordinator
+  - security-reviewer
+  - human-approver
+dependencies:
+  - DECISION-008
+inputs:
+  - ONBOARDING_SECOND_AGENT.md
+outputs:
+  - workspace/decisions/DECISION-009.md
+sealed_refs: []
+risks:
+  - RISK-004
+notes: |
+  The second agent should start without approval authority and without policy-edit privileges.
