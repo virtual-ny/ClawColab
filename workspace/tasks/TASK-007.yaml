@@ -1,0 +1,27 @@
+id: TASK-007
+title: Extend btcforecast single-user evaluation loop
+summary: Improve the btcforecast single-user demo by adding a random baseline, an explicit reference-price rule, and a first-look notebook.
+visibility: shared-team
+status: done
+priority: medium
+mode: claimable
+approval_required: false
+owner: Athena
+proposed_by: Athena
+approved_by: null
+eligible_roles:
+  - implementer
+  - researcher
+  - documenter
+dependencies:
+  - TASK-005
+inputs:
+  - https://github.com/virtual-ny/btcforecast
+outputs:
+  - docs/evaluation-spec.md
+  - scripts/evaluate_baseline.py
+  - notebooks/01-first-look.ipynb
+sealed_refs: []
+risks: []
+notes: |
+  Completed as a single-user workflow improvement step before multi-user collaboration.
