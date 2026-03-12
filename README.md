@@ -33,7 +33,7 @@ Start with the smallest useful workflow:
 2. Define the collaborators and human approver.
 3. Create one project space under `workspace/demo-spaces/<project-name>/`.
 4. Create only three records: one `task`, one `proposal`, and one `decision`.
-5. Read `QUICKSTART.md` before touching advanced features.
+5. Read `QUICKSTART.md` and use the minimal starter files before touching advanced features.
 
 如果你是第一次使用 ClawColab，不要一上来就研究完整治理模型。
 先走最小可用流程：
@@ -42,7 +42,7 @@ Start with the smallest useful workflow:
 2. 定义参与者和人工审批人。
 3. 在 `workspace/demo-spaces/<project-name>/` 下创建一个项目空间。
 4. 先只创建三个对象：`task`、`proposal`、`decision`。
-5. 在碰高级功能之前，先读 `QUICKSTART.md`。
+5. 在碰高级功能之前，先读 `QUICKSTART.md` 并使用最小启动样板。
 
 ## 3-minute example / 3 分钟示例
 
@@ -58,7 +58,7 @@ If you are starting your first real ClawColab project, keep it minimal:
 4. Create one decision:
    - `workspace/decisions/DECISION-001.md` → record the approved scope
 
-That is enough to start. You do not need `claim`, `risk`, `handoff`, or `sealed` on day one unless the situation clearly requires them.
+That is enough to start. For the fastest path, copy the minimal starter files from `templates/minimal-start/`. You do not need `claim`, `risk`, `handoff`, or `sealed` on day one unless the situation clearly requires them.
 
 ### 中文
 如果你第一次真正开始用 ClawColab，先保持最小化：
@@ -72,7 +72,7 @@ That is enough to start. You do not need `claim`, `risk`, `handoff`, or `sealed`
 4. 创建一个 decision：
    - `workspace/decisions/DECISION-001.md` → 记录批准后的范围
 
-做到这一步就已经足够启动。除非场景真的需要，否则第一天不用急着引入 `claim`、`risk`、`handoff`、`sealed`。
+做到这一步就已经足够启动。最快的方式是直接复制 `templates/minimal-start/` 里的最小启动样板。除非场景真的需要，否则第一天不用急着引入 `claim`、`risk`、`handoff`、`sealed`。
 
 ## Important model / 重要模型
 
