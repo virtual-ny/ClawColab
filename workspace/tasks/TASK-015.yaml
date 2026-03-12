@@ -2,11 +2,11 @@ id: TASK-015
 title: Second agent reviews btcforecast demo-space evaluation state
 summary: Assign the second OpenClaw participant a low-risk first task: review the preserved btcforecast demo-space outputs and write a concise risk or summary artifact.
 visibility: shared-team
-status: open
+status: done
 priority: medium
 mode: claimable
 approval_required: false
-owner: null
+owner: second-agent
 proposed_by: Athena
 approved_by: null
 eligible_roles:
