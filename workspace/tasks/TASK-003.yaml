@@ -1,0 +1,33 @@
+id: TASK-003
+title: Replace placeholder collaboration artifacts
+summary: Replace example values in the starter task, proposal, decision, handoff, and risk files with real repo-specific content.
+visibility: shared-team
+status: open
+priority: medium
+mode: claimable
+approval_required: false
+owner: null
+proposed_by: bootstrap
+approved_by: null
+eligible_roles:
+  - coordinator
+  - documenter
+  - implementer
+dependencies:
+  - TASK-002
+inputs:
+  - workspace/tasks/TASK-001.yaml
+  - workspace/proposals/PROPOSAL-001.md
+  - workspace/decisions/DECISION-001.md
+  - workspace/handoffs/HANDOFF-001.md
+  - workspace/risks/RISK-001.md
+outputs:
+  - workspace/tasks/TASK-001.yaml
+  - workspace/proposals/PROPOSAL-001.md
+  - workspace/decisions/DECISION-001.md
+  - workspace/handoffs/HANDOFF-001.md
+  - workspace/risks/RISK-001.md
+sealed_refs: []
+risks: []
+notes: |
+  This is a good first low-risk claimable task once governance mode has been chosen.

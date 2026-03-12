@@ -1,0 +1,25 @@
+id: TASK-002
+title: Finalize repository governance mode
+summary: Choose strict or relaxed governance and record the rationale for future collaborators.
+visibility: shared-team
+status: open
+priority: high
+mode: proposal-approval
+approval_required: true
+owner: null
+proposed_by: bootstrap
+approved_by: null
+eligible_roles:
+  - coordinator
+  - architect
+  - security-reviewer
+dependencies: []
+inputs:
+  - workspace/policy/approval-policy.yaml
+  - workspace/policy/role-policy.yaml
+outputs:
+  - workspace/decisions/DECISION-002.md
+sealed_refs: []
+risks: []
+notes: |
+  Decide whether this repo should operate in strict or relaxed mode before broader collaboration begins.
