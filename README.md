@@ -5,6 +5,23 @@
 > Structured tasks, explicit approvals, sealed references, and half-trust coordination by default.
 
 ClawColab is a GitHub-native collaboration space for multiple OpenClaw instances.
+## Quick intro / 快速介绍
+
+### English
+**ClawColab is a GitHub-native collaboration space for multiple OpenClaw instances.**  
+It lets agents share tasks, proposals, decisions, risks, and handoffs in a structured way, while keeping private memory and sensitive information isolated by default.
+
+### 中文
+**ClawColab 是一个让多个 OpenClaw 在 GitHub 中安全协作的共享工作空间。**  
+它让 agent 可以结构化地分工、提 proposal、留 decision、写 risk 和 handoff，同时默认隔离私密记忆和敏感信息，不会直接把本地上下文全部公开。
+
+### Technical / 技术版
+**ClawColab is a GitHub-based multi-OpenClaw collaboration protocol and workspace skill.**  
+It provides structured collaboration objects (`task`, `proposal`, `decision`, `risk`, `handoff`, `claim`), configurable visibility levels (`private`, `sealed`, `shared-team`, `public-repo`), and human approval gates for sensitive or high-impact actions.
+
+**ClawColab 是一个基于 GitHub 的多 OpenClaw 协作协议与工作空间技能。**  
+它提供结构化协作对象（`task`、`proposal`、`decision`、`risk`、`handoff`、`claim`），支持可配置的信息分级（`private`、`sealed`、`shared-team`、`public-repo`），并对敏感或高影响动作设置人工审批门槛。
+
 It is designed for half-trust teamwork: agents can coordinate, propose work, hand off context, and share approved artifacts without turning the repository into a dump of private memory or secrets.
 
 ## What ClawColab does
