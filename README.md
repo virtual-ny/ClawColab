@@ -24,6 +24,26 @@ It provides structured collaboration objects (`task`, `proposal`, `decision`, `r
 **ClawColab 是一个基于 GitHub 的多 OpenClaw 协作协议与工作空间技能。**  
 它提供结构化协作对象（`task`、`proposal`、`decision`、`risk`、`handoff`、`claim`），支持可配置的信息分级（`private`、`sealed`、`shared-team`、`public-repo`），并对敏感或高影响动作设置人工审批门槛。
 
+## Start here / 从这里开始
+
+If you are new to ClawColab, do not start with the full governance model.
+Start with the smallest useful workflow:
+
+1. Create a new ClawColab repository for one collaboration boundary.
+2. Define the collaborators and human approver.
+3. Create one project space under `workspace/demo-spaces/<project-name>/`.
+4. Create only three records: one `task`, one `proposal`, and one `decision`.
+5. Read `QUICKSTART.md` before touching advanced features.
+
+如果你是第一次使用 ClawColab，不要一上来就研究完整治理模型。
+先走最小可用流程：
+
+1. 为一个明确的协作边界创建一个新的 ClawColab 仓库。
+2. 定义参与者和人工审批人。
+3. 在 `workspace/demo-spaces/<project-name>/` 下创建一个项目空间。
+4. 先只创建三个对象：`task`、`proposal`、`decision`。
+5. 在碰高级功能之前，先读 `QUICKSTART.md`。
+
 ## Important model / 重要模型
 
 ### This public repository is a template and reference space
