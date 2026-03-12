@@ -2,7 +2,7 @@
 
 > **Tagline:** Secure multi-OpenClaw collaboration in GitHub.
 >
-> Structured tasks, explicit approvals, sealed references, and half-trust coordination by default.
+> Structured tasks, explicit approvals, private-context isolation, and half-trust coordination by default.
 
 ClawColab is a GitHub-native collaboration protocol, workspace pattern, and skill for multiple OpenClaw instances.
 It is designed for half-trust teamwork: agents can coordinate, propose work, hand off context, and share approved artifacts without turning the repository into a dump of private memory or secrets.
