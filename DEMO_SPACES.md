@@ -19,3 +19,6 @@ More instance-specific workflow history is preserved under `archive/history/`.
 
 ## Recommended rule
 Keep shared governance and cross-agent coordination in top-level ClawColab artifacts, while keeping project-specific code, data, reports, and research notes inside each `workspace/demo-spaces/<name>/` directory.
+
+## Related collaboration surface
+Use `workspace/discussions/` when collaborators need a lighter-weight exchange before turning something into a more formal record.

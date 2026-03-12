@@ -30,3 +30,6 @@ Claim work only when:
 ## Sealed References
 Use `sealed/INDEX.md` for existence + summary only.
 Do not store confidential bodies in this repository.
+
+## Discussions
+Use `workspace/discussions/` for exploratory or conversational coordination before something becomes a formal task, proposal, risk, handoff, or decision.
