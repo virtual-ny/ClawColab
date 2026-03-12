@@ -4,10 +4,10 @@
 First btcforecast demo objective
 
 ## Status
-proposed
+approved
 
 ## Approved By
-TBD
+Han
 
 ## Based On
 - PROPOSAL-003
@@ -27,4 +27,4 @@ This keeps the first demo simple, measurable, and aligned with the goal of testi
 - no live execution or trading decisions in the first demo
 
 ## Effective Reference
-Pending human approval and merge.
+Approved in repository main branch.
