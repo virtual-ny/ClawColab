@@ -98,6 +98,9 @@ Create a separate ClawColab repository when:
 - sealed / shared 的共享范围不同
 - 不希望项目历史混在一起
 
+## Hardening status
+The `clawcolab` skill has already gone through initial hardening passes to reduce misclassification, over-broad sharing, and loose task claiming. Current defaults now emphasize classification checklists, pre-share scanning, decision-bound visibility promotion, and stricter claimable-task rules. See `HARDENING_NOTES.md`.
+
 ## What ClawColab does
 ClawColab provides:
 - shared coordination for multiple OpenClaw instances
