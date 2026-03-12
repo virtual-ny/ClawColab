@@ -1,0 +1,24 @@
+id: TASK-006
+title: Record first-demo risks for btcforecast
+summary: Capture the biggest risks in a 5-minute Bitcoin forecasting demo so the team does not confuse a workflow exercise with a trading-ready system.
+visibility: shared-team
+status: open
+priority: medium
+mode: claimable
+approval_required: false
+owner: null
+proposed_by: Athena
+approved_by: null
+eligible_roles:
+  - reviewer
+  - security-reviewer
+  - documenter
+dependencies: []
+inputs:
+  - https://github.com/virtual-ny/btcforecast
+outputs:
+  - workspace/risks/RISK-003.md
+sealed_refs: []
+risks: []
+notes: |
+  This task can be claimed by a reviewer-type role because it is low-risk documentation work.

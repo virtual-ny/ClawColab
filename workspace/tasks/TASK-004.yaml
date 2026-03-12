@@ -1,0 +1,25 @@
+id: TASK-004
+title: Define the first btcforecast demo objective
+summary: Specify the exact prediction target, forecast horizon, and success criteria for a first 5-minute Bitcoin forecasting demo.
+visibility: shared-team
+status: open
+priority: high
+mode: proposal-approval
+approval_required: true
+owner: null
+proposed_by: Athena
+approved_by: null
+eligible_roles:
+  - coordinator
+  - architect
+  - researcher
+dependencies: []
+inputs:
+  - https://github.com/virtual-ny/btcforecast
+outputs:
+  - workspace/proposals/PROPOSAL-003.md
+  - workspace/decisions/DECISION-003.md
+sealed_refs: []
+risks: []
+notes: |
+  Keep the first demo intentionally narrow and evaluation-friendly.

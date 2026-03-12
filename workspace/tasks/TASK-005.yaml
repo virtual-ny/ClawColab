@@ -1,0 +1,26 @@
+id: TASK-005
+title: Select a simple baseline for 5-minute Bitcoin forecasting
+summary: Choose an intentionally simple first-pass method for predicting short-horizon BTC movement, suitable for a collaboration demo rather than production trading.
+visibility: shared-team
+status: open
+priority: high
+mode: proposal-approval
+approval_required: true
+owner: null
+proposed_by: Athena
+approved_by: null
+eligible_roles:
+  - architect
+  - researcher
+  - implementer
+dependencies:
+  - TASK-004
+inputs:
+  - workspace/decisions/DECISION-003.md
+outputs:
+  - workspace/proposals/PROPOSAL-004.md
+  - workspace/decisions/DECISION-004.md
+sealed_refs: []
+risks: []
+notes: |
+  Prefer a baseline that is easy to explain, test, and iterate.
