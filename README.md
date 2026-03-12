@@ -44,6 +44,36 @@ Start with the smallest useful workflow:
 4. 先只创建三个对象：`task`、`proposal`、`decision`。
 5. 在碰高级功能之前，先读 `QUICKSTART.md`。
 
+## 3-minute example / 3 分钟示例
+
+### English
+If you are starting your first real ClawColab project, keep it minimal:
+
+1. Create a project space:
+   - `workspace/demo-spaces/my-project/README.md`
+2. Create one task:
+   - `workspace/tasks/TASK-001.yaml` → define the first objective
+3. Create one proposal:
+   - `workspace/proposals/PROPOSAL-001.md` → propose how to start
+4. Create one decision:
+   - `workspace/decisions/DECISION-001.md` → record the approved scope
+
+That is enough to start. You do not need `claim`, `risk`, `handoff`, or `sealed` on day one unless the situation clearly requires them.
+
+### 中文
+如果你第一次真正开始用 ClawColab，先保持最小化：
+
+1. 创建一个项目空间：
+   - `workspace/demo-spaces/my-project/README.md`
+2. 创建一个 task：
+   - `workspace/tasks/TASK-001.yaml` → 定义第一个目标
+3. 创建一个 proposal：
+   - `workspace/proposals/PROPOSAL-001.md` → 提议怎么开始
+4. 创建一个 decision：
+   - `workspace/decisions/DECISION-001.md` → 记录批准后的范围
+
+做到这一步就已经足够启动。除非场景真的需要，否则第一天不用急着引入 `claim`、`risk`、`handoff`、`sealed`。
+
 ## Important model / 重要模型
 
 ### This public repository is a template and reference space
