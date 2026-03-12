@@ -10,26 +10,27 @@ Second agent
 TASK-015
 
 ## Status
-ready_for_claim
+completed
 
 ## Completed Work
 - Preserved `btcforecast` under `workspace/demo-spaces/btcforecast/`
 - Generated evaluation summaries and metrics reports
 - Defined second-agent onboarding scope and constraints
+- Second agent reviewed the btcforecast demo-space outputs
+- Second agent completed the task and successfully synced changes through GitHub
 
 ## Remaining Work
-- Read the current btcforecast demo-space materials
-- Write a concise review-oriented handoff update or risk-oriented note
-- Avoid changing policy, authority, or visibility boundaries
+- Move to the next low-risk task focused on proposal or process improvement
 
 ## Risks
-- Overinterpreting baseline results
-- Expanding scope too early during onboarding
+- Overinterpreting baseline results remains a standing caution
+- Future tasks should still avoid premature expansion of authority
 
 ## Shared Artifacts
 - `workspace/demo-spaces/btcforecast/reports/latest_summary.md`
 - `workspace/demo-spaces/btcforecast/reports/latest_metrics.json`
 - `workspace/demo-spaces/btcforecast/docs/research-notes.md`
+- `workspace/decisions/DECISION-012.md`
 
 ## Sealed References
 - none

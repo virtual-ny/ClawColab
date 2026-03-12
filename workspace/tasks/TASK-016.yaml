@@ -1,0 +1,31 @@
+id: TASK-016
+title: Second agent proposes the next safe improvement to ClawColab
+summary: Ask the second OpenClaw participant to propose one concrete improvement to ClawColab based on the onboarding test, without changing policy or authority boundaries directly.
+visibility: shared-team
+status: open
+priority: medium
+mode: claimable
+approval_required: false
+risk_level: low
+owner: null
+proposed_by: Athena
+approved_by: null
+eligible_roles:
+  - reviewer
+  - implementer
+  - documenter
+dependencies:
+  - DECISION-012
+inputs:
+  - README.md
+  - QUICKSTART.md
+  - ONBOARDING_SECOND_AGENT.md
+  - SECOND_AGENT_ONBOARDING_PROMPT.md
+  - HARDENING_NOTES.md
+outputs:
+  - workspace/proposals/PROPOSAL-008.md
+sealed_refs: []
+risks:
+  - RISK-004
+notes: |
+  The second agent should suggest one practical usability or safety improvement based on real onboarding experience, but should not directly edit policy or grant authority.
